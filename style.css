@@ -1,0 +1,445 @@
+
+* {
+    font-family: 'Sofia Pro', sans-serif;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px !important;
+}
+
+header {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 
+Menu with hamburger icons
+*/ 
+nav {
+	background-color: #E5E5E5;
+}
+
+nav a {
+    color: black;
+    padding: 1px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+
+#menuList {
+    z-index: 100;
+    top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:#E5E5E5;
+	transform: translateY(0);
+	padding-top: 7rem;
+    display: none;
+	position: fixed;
+    transition: transform 0.8s;
+}
+
+.hamburgerBars {
+    /* top: 0;
+	right: 0; */
+	color: black;
+    cursor: pointer;
+	z-index: 100;
+	font-size: 2.4rem;
+    font-weight: 100;
+	padding: 18px;
+	/* position: absolute; */
+}
+
+.showMenu {
+	transform: translateY(-100%);
+}
+
+
+/* 
+Almi logotype in header
+*/ 
+.logo {
+    width: 120px;
+
+}
+
+/*
+Hero section
+*/
+
+h1 {
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    font-size: 32px !important;
+}
+
+.heroBackgroundImage {
+    height: 30vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+} 
+
+.heroInfoBox {
+    background-color: rgba(0, 0, 0, 0.26);
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    width: 90%;
+    padding: 12px;
+    max-width: 720px;
+    transform: translateY(-50%);
+
+}
+
+.contactButtonHero {
+    position: absolute;
+    top: 85%;
+    left: 3%;
+    padding: 12px;
+    max-width: 720px;
+    transform: translateY(-50%);
+    background-color: #2819FF;
+    color: white;
+    border: none;
+
+}
+
+.heroInfoText {
+    margin: 0;
+}
+
+
+/* 
+Intro section
+*/
+
+.intro {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.whyAlmiSection {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #AAE6FF;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 18px !important;
+    padding: 20px;
+    padding-top: 60px;
+    font-weight: 700 !important;
+    padding-bottom: 30px;
+
+}
+
+.stripes {
+    width: 40%;
+    padding-right: 5px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+}
+
+.pitches {
+    width: 60%;
+    padding-left: 8px;
+}
+
+.pitch {
+    padding-bottom: 21px;
+}
+
+.handshakeImage {
+    width: 100%;
+}
+
+.stripesGraphics {
+    width: 50vw;
+}
+
+.headline {
+    width: 94%;
+}
+
+
+
+/* 
+Company logos
+*/
+
+.companies {
+    background-color: #E5E5E5;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.companyLogos {
+    height: 4vh;
+    opacity: 70%;
+}
+
+
+/* 
+Loan info
+*/
+
+.loanInfo {
+    padding: 15px;
+}
+
+h2 {
+    font-size: 21px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    padding-top: 36px;
+    margin: 5px;
+}
+
+.loanInfoText {
+    font-size: 16px !important;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.ten {
+    background-color: #2819FF;
+
+}
+
+.twentyfive {
+    background-color: #870AA0;
+
+}
+
+.fifty {
+    background-color: #23C3FF;
+
+}
+
+.loanBlocks {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.loanBlocks > * {
+    margin: 12px;
+    color: white;
+    font-weight: 700 !important;
+    padding: 10px;
+    font-size: 18px !important;
+    
+    box-shadow: 2px 2px 5px rgb(155, 155, 155);
+    width: 24vh;
+    text-align: center;
+}
+
+.loanChartGraphic {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+/* 
+Process 
+*/
+
+/* 
+
+.stepsGraphics {
+    width: 22vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.stepsBackground {
+    background-color: #E5E5E5;
+    margin-bottom: 50px;
+}
+
+.stepsText {
+    padding: 15px;
+    padding-bottom: 25px;
+}
+
+h4 {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    text-align: center;
+    padding: 12px;
+}
+
+.lastStep {
+    margin-bottom: 35px;
+} */
+
+.process h2 {
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-top: 6vh;
+}
+
+.arrow {
+    display: flex;
+}
+
+.downArrow {
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 35px;
+    margin-bottom: 2vh;
+}
+
+#carouselSlideshow {
+    background-color: #E5E5E5;
+}
+
+.carousel-indicators button {
+    color: black !important;
+}
+
+.slideshowContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 35px;
+}
+
+.slideImage {
+    width: 25vw;
+    margin: 2vh;
+
+}
+
+.slideText {
+    padding: 15px;
+}
+
+h4 {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    text-align: center;
+    padding: 8px;
+}
+
+
+
+
+
+
+.contactButton {
+    padding: 12px;
+    background-color: #2819FF;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+
+
+/*
+Reviews
+*/
+
+.reviews {
+    padding: 12px;
+    /* background-color: #AAE6FF; */
+    padding-top: 4vh;
+} 
+
+.reviews h2 {
+    text-align: center;
+
+}
+
+.reviewContent {
+    background-color: white;
+    padding: 4vh;
+    padding-top: 4vh;
+}
+
+.reviewImageArea {
+    margin-bottom: 4vh;
+}
+
+.reviewImage {
+    width: 24vh;
+    border-radius: 100%;
+    display: flex;
+    margin: auto;
+    box-shadow: 1px 1px 3px rgb(163, 163, 163);
+
+}
+
+.reviewName {
+    font-size: 14px !important;
+    font-weight: 700;
+    margin-top: 2vh;
+    text-align: right;
+}
+
+
+.readMoreButton {
+    padding: 12px;
+    background-color: #2819FF;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+
+/* 
+About Almi
+*/
+
+.aboutAlmi {
+    padding: 15px;
+}
+
+.aboutAlmi h2 {
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white !important;
+    background-color: #cd9bd7 !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: white !important;
+}
