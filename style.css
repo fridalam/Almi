@@ -5,7 +5,7 @@
 
 p {
     font-weight: 400;
-    font-size: 18px !important;
+    font-size: 16px !important;
 }
 
 header {
@@ -264,9 +264,13 @@ Process
     margin-bottom: 2vh;
 }
 
+.showArrow {
+    display: flex;
+}
+
 #carouselSlideshow {
-    background-color: #E5E5E5;
-    height: 70vh;
+    background-color: #AAE6FF;
+    height: 60vh;
 }
 
 
@@ -382,6 +386,26 @@ Reviews
 
 }
 
+/* Values */ 
+.values {
+    background-color: #cd9bd7;
+    margin-top: 8vh;
+}
+
+.almiValues {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6vh;
+    object-fit: contain;
+}
+
+
+.valueImages {
+    width: 7vh;
+
+}
+
+
 
 /* 
 About Almi
@@ -389,19 +413,28 @@ About Almi
 
 .aboutAlmi {
     padding: 15px;
+
 }
 
+.aboutAlmiWrapper {
+    margin: 0vh 4vh 0vh 4vh;
+}
 .aboutAlmi h2 {
     margin-top: 4vh;
     margin-bottom: 3vh;
     text-align: center;
 }
 
+
+.accordion-button {
+    text-transform: uppercase;
+}
+
 .accordion-button:not(.collapsed) {
-    color: white !important;
-    background-color: #cd9bd7 !important;
+    color: #23C3FF!important;
+    background-color: white !important;
     box-shadow: none !important;
-    border: none;
+    border: none !important;
 }
 
 .accordion-button:focus {
@@ -652,9 +685,14 @@ iPad
     }
 
     .slideshowContent {
-        padding-right: 15vh;
-        padding-left: 15vh;
+        margin-right: 8vh;
+        margin-left: 8vh;
     }
+
+    #carouselSlideshow {
+        height: 60vh;
+    }
+    
 
     h3 {
         font-size: 22px !important;
@@ -672,27 +710,14 @@ iPad
         width: 28vh;
     }
 
-
-    /* About Almi */
-    /* .aboutAlmi {
-        display: flex;
-        padding: 25px;
-        padding-right: 1vh;
+    /* Values */
+    .valueImages {
+        width: 10vh;
     }
 
-    .aboutAlmiText {
-        width: 50%;
-    }
 
-    #accordionFlush {
-        width: 50%;
-        padding-left: 1vh;
-    } */
 
-    /* 
-    Final contact section
-    */
-
+    /* Final section */
     .closeDealText {
         width: 70%;
         padding: 25px;
@@ -730,7 +755,7 @@ iPad
     }
 
     .socialImage {
-        width: 5vh;
+        width: 4.5vh;
         margin: 16px;
 
     }
@@ -812,12 +837,12 @@ Desktop
     }
 
     .slideshowContent {
-        padding-right: 25vh;
-        padding-left: 25vh;
+        margin-right: 20vh;
+        margin-left: 20vh;
     }
 
     h3 {
-        font-size: 24x !important;
+        font-size: 24px !important;
     }
 
 
@@ -856,6 +881,7 @@ Desktop
     }
 
 
+  
     /* About Almi */
     
     .aboutAlmi {
