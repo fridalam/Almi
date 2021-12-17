@@ -5,7 +5,7 @@
 
 p {
     font-weight: 400;
-    font-size: 16px !important;
+    font-size: 18px !important;
 }
 
 header {
@@ -14,6 +14,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 
 /* 
 Menu with hamburger icons
@@ -24,10 +25,12 @@ nav {
 
 nav a {
     color: black;
-    padding: 1px;
+    padding: 2vh;
+    margin-bottom: 3vh;
 	text-align: center;
 	text-decoration: none;
 	display: block;
+    background-color: white;
 }
 
 #menuList {
@@ -36,24 +39,22 @@ nav a {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color:#E5E5E5;
 	transform: translateY(0);
 	padding-top: 7rem;
     display: none;
 	position: fixed;
     transition: transform 0.8s;
+    background-color: #AAE6FF;
 }
 
 .hamburgerBars {
-    /* top: 0;
-	right: 0; */
 	color: black;
     cursor: pointer;
 	z-index: 100;
-	font-size: 2.4rem;
+	font-size: 2rem;
     font-weight: 100;
 	padding: 18px;
-	/* position: absolute; */
+    position: relative;
 }
 
 .showMenu {
@@ -80,35 +81,37 @@ h1 {
 }
 
 .heroBackgroundImage {
-    height: 30vh;
+    height: 40vh;
     object-fit: cover;
     width: 100%;
 }
 
 .hero {
     position: relative;
+    display: flex;
+    justify-content: center;
 } 
 
 .heroInfoBox {
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.301);
     color: white;
     position: absolute;
-    top: 40%;
-    left: 3%;
-    width: 90%;
-    padding: 12px;
+    top: 38%;
+    left: 50%;
+    width: 80%;
+    padding: 3vh;
     max-width: 720px;
-    transform: translateY(-50%);
-
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .contactButtonHero {
     position: absolute;
-    top: 85%;
-    left: 3%;
+    top: 80%;
+    left: 50%;
     padding: 12px;
     max-width: 720px;
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
     background-color: #2819FF;
     color: white;
     border: none;
@@ -117,6 +120,7 @@ h1 {
 
 .heroInfoText {
     margin: 0;
+    text-align: center;
 }
 
 
@@ -125,7 +129,6 @@ Intro section
 */
 
 .intro {
-    padding: 15px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -133,46 +136,21 @@ Intro section
 .whyAlmiSection {
     display: flex;
     flex-wrap: wrap;
-    background-color: #AAE6FF;
     justify-content: center;
+    padding: 15px;
 }
 
-h3 {
-    font-size: 18px !important;
-    padding: 20px;
-    padding-top: 60px;
-    font-weight: 700 !important;
-    padding-bottom: 30px;
+.whyAlmiSection h2 {
+    padding-bottom: 2vh;
 
 }
 
-.stripes {
-    width: 40%;
-    padding-right: 5px;
-    padding-left: 20px;
-    padding-bottom: 60px;
-}
 
-.pitches {
-    width: 60%;
-    padding-left: 8px;
-}
-
-.pitch {
-    padding-bottom: 21px;
-}
-
-.handshakeImage {
+.inspirationImage {
     width: 100%;
+    margin-bottom: 6vh;
 }
 
-.stripesGraphics {
-    width: 50vw;
-}
-
-.headline {
-    width: 94%;
-}
 
 
 
@@ -182,15 +160,21 @@ Company logos
 
 .companies {
     background-color: #E5E5E5;
-    padding: 18px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
 }
 
 .companyLogos {
-    height: 4vh;
+    object-fit: contain;
     opacity: 70%;
+    width: 7vh;
+    margin: 0vw 2vw 0vh 2vw;
+    
 }
+
+
 
 
 /* 
@@ -207,6 +191,7 @@ h2 {
     text-transform: uppercase;
     padding-top: 36px;
     margin: 5px;
+    text-align: center;
 }
 
 .loanInfoText {
@@ -231,22 +216,21 @@ h2 {
 }
 
 .loanBlocks {
-    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
+ /* Styles all children to parent elememt loanBlocks */
 .loanBlocks > * {
     margin: 12px;
     color: white;
     font-weight: 700 !important;
-    padding: 10px;
+    padding: 16px;
     font-size: 18px !important;
-    
     box-shadow: 2px 2px 5px rgb(155, 155, 155);
-    width: 24vh;
+    width: 100%;
     text-align: center;
 }
 
@@ -264,41 +248,7 @@ h2 {
 Process 
 */
 
-/* 
-
-.stepsGraphics {
-    width: 22vw;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-.stepsBackground {
-    background-color: #E5E5E5;
-    margin-bottom: 50px;
-}
-
-.stepsText {
-    padding: 15px;
-    padding-bottom: 25px;
-}
-
-h4 {
-    font-size: 18px !important;
-    font-weight: 700 !important;
-    text-align: center;
-    padding: 12px;
-}
-
-.lastStep {
-    margin-bottom: 35px;
-} */
-
 .process h2 {
-    text-align: center;
     margin-bottom: 2vh;
     margin-top: 6vh;
 }
@@ -316,21 +266,19 @@ h4 {
 
 #carouselSlideshow {
     background-color: #E5E5E5;
+    height: 70vh;
 }
 
-.carousel-indicators button {
-    color: black !important;
-}
 
 .slideshowContent {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 35px;
+    padding: 8vh;
 }
 
 .slideImage {
-    width: 25vw;
+    width: 18vw;
     margin: 2vh;
 
 }
@@ -339,7 +287,7 @@ h4 {
     padding: 15px;
 }
 
-h4 {
+h3 {
     font-size: 18px !important;
     font-weight: 700 !important;
     text-align: center;
@@ -347,9 +295,10 @@ h4 {
 }
 
 
-
-
-
+.contact {
+    display: flex;
+    justify-content: center;
+}
 
 .contactButton {
     padding: 12px;
@@ -364,6 +313,10 @@ h4 {
     margin-bottom: 35px;
 }
 
+.contact a {
+    text-decoration: none;
+}
+
 
 
 /*
@@ -373,7 +326,8 @@ Reviews
 .reviews {
     padding: 12px;
     /* background-color: #AAE6FF; */
-    padding-top: 4vh;
+    padding-top: 2vh;
+    
 } 
 
 .reviews h2 {
@@ -407,8 +361,16 @@ Reviews
     text-align: right;
 }
 
+.readMore {
+    display: flex;
+    justify-content: center;
+}
 
-.readMoreButton {
+.readMore a {
+    text-decoration: none;
+}
+
+.moreButton {
     padding: 12px;
     background-color: #2819FF;
     color: white;
@@ -431,6 +393,7 @@ About Almi
 
 .aboutAlmi h2 {
     margin-top: 4vh;
+    margin-bottom: 3vh;
     text-align: center;
 }
 
@@ -438,8 +401,489 @@ About Almi
     color: white !important;
     background-color: #cd9bd7 !important;
     box-shadow: none !important;
+    border: none;
 }
 
-.accordion-button:not(.collapsed)::after {
-    background-image: white !important;
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+
+/* 
+Final contact section
+*/
+.notesImage {
+    height: 28vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.imageWithContent {
+    position: relative;
+    color: white;
+    display: flex;
+}
+
+.closeDealText {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.26);
+    color: white;
+    padding: 12px;
+    max-width: 20rem;
+}
+
+.closeDealText p {
+    margin: 0;
+}
+
+
+.finalContactButton {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    padding: 12px;
+    transform: translate(-50%, -50%);
+    background-color: #2819FF;
+    color: white;
+    border: none;
+}
+
+
+/*
+Footer
+*/
+
+.footerMenu {
+    background-color: #E5E5E5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8vh;
+    padding-bottom: 3vh;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+}
+
+.footerLinks p {
+    margin: 1vh;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footerLinks a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px !important;
+    padding: 0.5vh;
+}
+
+
+
+.socialLinks {
+    width: 100%;
+    display: flex;
+}
+
+.socialLinksWrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialImage {
+    width: 5vh;
+    margin: 12px;
+
+}
+
+.socialLinks a {
+    text-decoration: none;
+}
+
+
+
+
+/* 
+iPad
+*/
+
+@media only screen and (min-width: 768px) {
+
+    header {
+        padding-left: 4vh;    
+        padding-right: 4vh;
+    }
+
+    /* Hamburger menu */
+    .hamburgerBars {
+        display: none !important;
+    }
+
+    #menuList {
+        padding-top: 0;
+        position: relative;
+        background-color: #E5E5E5;
+        display: flex;
+    }
+
+    nav a {
+        color: black;
+        margin-bottom: 0;
+        text-align: center;
+        text-decoration: none;
+        display: inline;
+        background-color: #E5E5E5;
+    }
+
+    /* Hero section */
+    .heroBackgroundImage {
+        height: 50vh;
+        margin-bottom: 3vh;
+    }
+
+    h1 {
+        font-size: 45px !important;
+    }
+
+    .heroInfoBox {
+        top: 45%;
+        padding: 6vh 3vh 6vh 3vh;
+    }
+
+
+    .heroInfoText {
+        font-size: 20px !important;
+ 
+    }
+
+    /* Intro section */
+    .whyAlmiSection {
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-bottom: 3vh;
+        padding: 25px;
+    }
+    
+    .whyAlmiSection h2 {
+        padding-bottom: 2vh;
+        padding-top: 0;
+    }
+    
+    .whyText {
+        margin-right: 2vh;
+        width: 50%;
+    }
+
+    .inspiration {
+        width: 50%;
+    }
+    
+    .inspirationImage {
+        margin: 0;
+    } 
+
+    /* Loan info */
+    h2 {
+        font-size: 26px !important;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .loanInfoWrapper h2 {
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        padding-bottom: 2vh;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .loanInfo {
+        display: flex;
+        margin-top: 2vh;
+
+    }
+
+    .loanInfoWrapper {
+        width: 50%;
+        margin-top: 4vh;
+        padding: 3vh;
+    }
+    
+    .loanChartGraphic {
+        width: 50%;
+        padding: 0;
+        padding: 3vh;
+    }
+
+    .loanInfoText {
+        font-size: 16px !important;
+        padding-top: 3vh;
+    }
+
+    .loanBlocks > * {
+        width: 70%;
+        margin-left: 0;
+    }
+
+    .loanBlocks {
+        align-items: flex-start;
+    }
+
+    /* 
+    Process 
+    */
+
+    .slideImage {
+        width: 15vw;
+    }
+
+    .slideshowContent {
+        padding-right: 15vh;
+        padding-left: 15vh;
+    }
+
+    h3 {
+        font-size: 22px !important;
+    }
+
+    /*
+    Reviews
+    */
+
+    .reviewContent {
+        padding: 4vh 10vh 4vh 10vh;
+    }
+
+    .reviewImage {
+        width: 28vh;
+    }
+
+
+    /* About Almi */
+    /* .aboutAlmi {
+        display: flex;
+        padding: 25px;
+        padding-right: 1vh;
+    }
+
+    .aboutAlmiText {
+        width: 50%;
+    }
+
+    #accordionFlush {
+        width: 50%;
+        padding-left: 1vh;
+    } */
+
+    /* 
+    Final contact section
+    */
+
+    .closeDealText {
+        width: 70%;
+        padding: 25px;
+        max-width: 28rem;
+    }
+
+    .closeDealText p {
+        font-size: 18px !important;
+    }
+
+    .finalContactButton {
+        top: 80%;
+    }
+
+    .notesImage {
+        height: 34vh;
+    }
+
+
+
+    /* Footer */
+    .footerMenu {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footerLinks {
+        display: flex;
+        width: 33%;
+    }
+
+    .footerLinks a {
+        font-size: 16px !important;
+
+    }
+
+    .socialImage {
+        width: 5vh;
+        margin: 16px;
+
+    }
+}
+
+
+/* 
+Desktop
+*/
+@media only screen and (min-width: 992px){
+
+
+    h2 {
+        font-size: 34px !important;
+    }
+
+    /* Hero section */
+    .heroBackgroundImage {
+        height: 60vh;
+    }
+
+    /* Intro section */
+
+    .intro {
+        justify-content: center;
+    }
+
+    .whyAlmiSection {
+        max-width: 80rem;
+    }
+
+
+    /* 
+    Company logos
+    */
+    .companyLogos {
+        width: 9vh;
+    }
+
+    /* Loan info */
+
+    .loanInfo {
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    .container {
+        max-width: 80rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loanChartGraphic {
+        max-height: 70vh;
+        padding: 0;
+    }
+
+    .loanInfoWrapper {
+        max-height: 70vh;
+        margin: 0;
+        padding: 0;
+        padding-left: 15vh;
+    }
+
+    .loanBlocks {
+        padding-bottom: 4vh;
+        padding-top: 2vh;
+    }
+
+
+    /* 
+    Process 
+    */
+    .slideImage {
+        width: 12vw;
+    }
+
+    .slideshowContent {
+        padding-right: 25vh;
+        padding-left: 25vh;
+    }
+
+    h3 {
+        font-size: 24x !important;
+    }
+
+
+    /* Reviews */
+
+    .reviewOuterWrapper {
+        justify-content: center;
+        display: flex;
+        margin-top: 10vh;
+    }
+    
+    .reviewWrapper {
+        max-width: 80rem;
+        display: flex;
+        justify-content: space-between;
+    } 
+    
+    .reviewContent {
+        width: 33%;
+        padding: 0 !important;
+        
+    }
+    
+    .reviewImageArea {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .reviewQuote {
+        padding-top: 5vh;
+    }
+
+    .reviewText {
+        padding: 5vh;
+    }
+
+
+    /* About Almi */
+    
+    .aboutAlmi {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutAlmiWrapper {
+        max-width: 80rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    /* 
+    Final contact section
+    */
+
+    .closeDealText {
+        top: 35%;
+        width: 65%;
+        padding: 25px;
+        max-width: 36rem;
+    }
+
+    .closeDealText p {
+        font-size: 20px !important;
+    }
+
+
 }

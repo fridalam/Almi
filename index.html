@@ -12,7 +12,7 @@
 
 
     <!-- Font - Sofia Pro -->
-    <link href="http://fonts.cdnfonts.com/css/sofia-pro" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sofia-pro" rel="stylesheet">
 
     <title>Almi Uppstartslån</title>
 </head>
@@ -40,18 +40,17 @@
 
     <!-- Hero section with background image -->
     <section class="hero">
-        <img src="images/People.jpg" alt="Work people" class="heroBackgroundImage">
+        <img src="images/workpeople.jpg" alt="Work people" class="heroBackgroundImage">
 
             <div class="heroInfoBox">
                 <h1>Uppstartslån</h1>
                 <p class="heroInfoText">Vill du göra
                     verklighet av din företagsidé? 
-                    Eller har du ett ungt företag som du vill 
-                    satsa mer på? Vi hjälper dig!</p>
+                    </p>
             </div>
 
             <a href="https://www.almi.se/om-almi/kontakt/kontakta-oss/">
-                <button class="contactButtonHero">Kontakta oss</button>
+                <div class="contactButtonHero">Kontakta oss</div>
             </a>
     </section>
 
@@ -59,23 +58,19 @@
     <section class="intro">
 
         <div class="whyAlmiSection">
-            <div class="headline">
-                <h3>Varför ska du välja Almis uppstartslån?</h3>
-            </div>
-            
-            <div class="stripes">
-                <img src="graphics/lines.svg" alt="Colored stripes" class="stripesGraphic">
+            <div class="whyText">
+                <h2>Varför ska du välja Almis uppstartslån?</h2>
+
+                <p>
+                    Har du en dröm om att starta eget företag? Våga ta steget! Med hjälp av vårt uppstartslån får du möjligheten att finansiera starten och komma igång. Vi hjälper dig med både affärsutveckling och lån och är med dig på din resa. Uppstartslånet riktar sig även till dig som driver ett ungt företag som du vill satsa mer på. Om ditt företag inte varit verksamt i mer än tre år så går det utmärkt att ansöka om vårt uppstartslån. 
+                </p>
             </div>
 
-            <div class="pitches">
-                <p class="pitch">Låg ränta och amortering.</p>
-                <p class="pitch">Tre olika lånebelopp.</p>
-                <p class="pitch">Tryggt stöd från Almi.</p>
-            </div>
-        </div>
 
-        <div class="handshake">
-            <img src="images/handshake.jpg" alt="Handshake" class="handshakeImage">
+            <div class="inspiration">
+                <img src="images/workwomen.jpg" alt="Work people" class="inspirationImage">
+            </div>
+
         </div>
     </section>
 
@@ -83,32 +78,42 @@
     <section class="companies">
         <img src="logos/aimn.png" alt="Aimn logotype" class="companyLogos">
         <img src="logos/blombruket.png" alt="Aimn logotype" class="companyLogos">
+        <img src="logos/vizcon.png" alt="Vizcon logotype" class="companyLogos">
         <img src="logos/sellpy.png" alt="Aimn logotype" class="companyLogos">
         <img src="logos/twistshake.png" alt="Aimn logotype" class="companyLogos">
+
+
     </section>
 
 
     <!-- Info about the loan -->
     <section class="loanInfo">
-        <h2>Välj ditt lånebelopp</h2>
+        <div class="container">
+            <div class="loanInfoWrapper">
+                <h2>Välj ditt lånebelopp</h2>
 
-        <p class="loanInfoText">Alla lån har en fast ränta på 5% och 
-        ett amorteringskrav på 500kr per månad.</p>
+                <div class="arrow">       
+                    <i class="fas fa-chevron-down downArrow"></i>
+                </div>
 
-        <p class="loanInfoText">Tjänsten gäller för dig som vill starta ett nytt företag 
-        och för företag som inte varit verksamma mer än 3 år.</p>
+                <div class="loanBlocks">
+                    <div class="ten">10.000 SEK</div>
+                    <div class="twentyfive">25.000 SEK</div>
+                    <div class="fifty">50.000 SEK</div>
+                </div>
 
-        <div class="loanBlocks">
-            <div class="ten">10.000 SEK</div>
-            <div class="twentyfive">25.000 SEK</div>
-            <div class="fifty">50.000 SEK</div>
+                <p class="loanInfoText">Alla lån har en fast ränta på 5% och 
+                ett amorteringskrav på 500kr per månad.</p>
+
+                <p class="loanInfoText">Beroende på vilket lånebelopp du väljer varierar 
+                återbetalningsperioden. Vänligen se tabell nedan.</p>
+            </div>
+
+            <img src="graphics/loan.svg" alt="Loan chart" class="loanChartGraphic">
         </div>
-
-        <p class="loanInfoText">Beroende på vilket lånebelopp du väljer varierar 
-        återbetalningsperioden. Vänligen se tabell nedan.</p>
-
-        <img src="graphics/loan.svg" alt="Loan chart" class="loanChartGraphic">
     </section>
+
+
 
     <!-- Process -->
     <section class="process">
@@ -118,7 +123,7 @@
         </div>
 
 
-        <div id="carouselSlideshow" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselSlideshow" class="carousel slide carousel-dark" data-bs-ride="carousel">
 
             <div class="carousel-indicators">
 
@@ -138,7 +143,7 @@
                         <img src="graphics/one.svg" alt="Step one" class="slideImage">
 
                         <div class="slideText">
-                            <h4>Skicka in din låneansökan</h4>
+                            <h3>Skicka in din låneansökan</h3>
 
                             <p>Lorem ipsum dolor sit amet,  consectetur adipiscing elit, 
                                 sed do eiusmod tempor incididunt ut labore et dolore 
@@ -158,7 +163,7 @@
                         <img src="graphics/two.svg" alt="Step two" class="slideImage">
                         
                         <div class="slideText">
-                            <h4>Vi går igenom din ansökan</h4>
+                            <h3>Vi går igenom din ansökan</h3>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
                                 elit, sed do eiusmod tempor incididunt ut labore et 
@@ -175,7 +180,7 @@
                     <div class="slideshowContent">
                         <img src="graphics/three.svg" alt="Step three" class="slideImage">
                         <div class="slideText">
-                            <h4>Bli kontaktad av oss</h4>
+                            <h3>Bli kontaktad av oss</h3>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                                 sed do eiusmod tempor incididunt ut labore et dolore 
@@ -194,7 +199,7 @@
                     <div class="slideshowContent">
                         <img src="graphics/four.svg" alt="Step four" class="slideImage">
                         <div class="slideText">
-                            <h4>Ärendet behandlas</h4>
+                            <h3>Ärendet behandlas</h3>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
                                 elit, sed do eiusmod tempor incididunt ut labore 
@@ -218,91 +223,21 @@
             </button>
           </div>
         </div>
-        <!-- Step one -->
-        <!-- <img src="graphics/one.svg" alt="Step one" class="stepsGraphics">
-
-        <div class="stepsBackground">
-            <div class="stepsText">
-
-                <h4>Skicka in din låneansökan</h4>
-
-                <p>Lorem ipsum dolor sit amet,  consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore 
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea 
-                    commodo consequat. Duis aute irure dolor in 
-                    reprehenderit in voluptate velit esse cillum dolore eu 
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                    non proident, sunt in culpa qui officia deserunt 
-                    mollit anim id est laborum.</p>
-            </div>
-        </div> -->
-
-        <!-- Step two -->
-        <!-- <img src="graphics/two.svg" alt="Step two" class="stepsGraphics">
-
-        <div class="stepsBackground">
-            <div class="stepsText">
-
-                <h4>Vi går igenom din ansökan</h4>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-                    elit, sed do eiusmod tempor incididunt ut labore et 
-                    dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                    ex ea commodo consequat. Duis aute irure dolor 
-                    in reprehenderit in voluptate velit esse cillum 
-                    dolore eu fugiat nulla pariatur.</p>
-            </div>
-        </div> -->
-
-        <!-- Step three -->
-        <!-- <img src="graphics/three.svg" alt="Step three" class="stepsGraphics">
-
-        <div class="stepsBackground">
-            <div class="stepsText">
-
-                <h4>Bli kontaktad av oss</h4>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore 
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea 
-                    commodo consequat. Duis aute irure dolor in 
-                    reprehenderit in voluptate velit esse cillum dolore eu 
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                    non proident, sunt in culpa qui officia deserunt 
-                    mollit anim id est laborum.</p>
-            </div>
-        </div> -->
-
-        <!-- Step four -->
-        <!-- <img src="graphics/four.svg" alt="Step four" class="stepsGraphics">
-
-        <div class="stepsBackground lastStep">
-            <div class="stepsText">
-
-                <h4>Ärendet behandlas</h4>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-                    elit, sed do eiusmod tempor incididunt ut labore 
-                    et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut 
-                    aliquip ex ea commodo consequat. </p>
-            </div>
-        </div> -->
 
         <div class="contact">
             <a href="https://www.almi.se/om-almi/kontakt/kontakta-oss/">
-                <button class="contactButton">Kontakta oss</button>
+                <div class="contactButton">Kontakta oss</div>
             </a>
         </div>
     </section>
     
-        <!-- Reviews -->
 
+    <!-- Reviews -->
     <section class="reviews">
-            <h2>Vad våra kunder säger</h2>
+
+        <h2>Vad våra kunder säger</h2>
+<div class="reviewOuterWrapper">
+        <div class="reviewWrapper">
             <div class="arrow">       
                 <i class="fas fa-chevron-down downArrow"></i>
             </div>
@@ -363,10 +298,12 @@
                     </p>
                 </div>
             </div>
+        </div>
+    </div>
 
             <div class="readMore">
                 <a href="https://www.almi.se/kunskapsbanken/inspiration/">
-                    <button class="readMoreButton">Mer inspiration</button>
+                    <div class="moreButton">Mer inspiration</div>
                 </a>
             </div>
     </section>
@@ -374,95 +311,191 @@
 
 
     <!-- About Almi -->
-
     <section class="aboutAlmi">
-    
-        <h2>Almi & hållbart företagande</h2>
+        <div class="aboutAlmiWrapper">
+        <div class="aboutAlmiText">
+            <h2>Almi & hållbart företagande</h2>
 
-        <p>Vi på Almi är vi övertygade om att hållbarhet engagerar 
-            medarbetare och att engagerade medarbetare skapar 
-            hållbara företag. Därför strävar Almi efter att vara en 
-            attraktiv arbetsplats som både attraherar och behåller 
-            medarbetare som vill utvecklas. Medarbetarnas 
-            kompetens och engagemang är viktigt för att Almi ska 
-            nå sina mål. Som anställd på Almi arbetar du för att 
-            coacha entreprenörer som är på väg in i företagandet 
-            eller vill ta sitt företag till en nästa nivå. Det kräver 
-            enskilt engagemang och att det finns ett stort förtroende 
-            mellan våra kunder och oss.
-        </p>
-
-
-    <!-- Accordion -->
-
-      <div class="accordion accordion-flush" id="accordionFlush">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                Kompetensutveckling
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush">
-            <div class="accordion-body">Kompetensutveckling är både en operativ och strategisk framgångsfaktor i Almis 
-                värdeskapande. Almi är en organisation med bred och djup kompetens hos medarbetarna, 
-                varför aktiv kunskapsdelning och samverkan är det primära sättet att utveckla medarbetare 
-                och verksamhet. Ett kvitto på att det fungerat är att våra medarbetarundersökningar visar 
-                på ett högt engagemang.</div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Minskad miljöpåverkan
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush">
-            <div class="accordion-body">Vi arbetar aktivt för att minska vår egen negativa miljöpåverkan från den egna verksamheten. 
-                Vi uppfattar det som viktigt i syfte att ta vårt ansvar utifrån de klimatutmaningar vi står inför 
-                samt att det skapar en trovärdighet i arbetet med de företag vi erbjuder finansiering och 
-                affärsutvecklingsinsatser. Almis verksamhet är miljödiplomerad utifrån svensk miljöbas där 
-                miljöarbetet koordineras via ett koncerngemensamt miljödiplom. Respektive dotterbolag i 
-                koncernen är ansvarigt för att leda och följa upp miljöarbetet i den region de verkar. 
-                Arbetet med att minska vår egen negativa miljöpåverkan tar sin utgångspunkt i Almis 
-                miljöinstruktion som finns möjligt att ta del av på begäran.</div>
-          </div>
+                <p>Almis verksamhet ger små och medelstora företag möjlighet att växa och       utvecklas. Genom att föra en aktiv dialog runt relevanta hållbarhetsfrågor med de företag Almi stödjer med lån, riskkapital eller affärsutveckling, bidrar Almis insatser till fler hållbara företag i Sverige.</p>
+                
+                <p>Vi på Almi är vi övertygade om att hållbarhet engagerar 
+                medarbetare och att engagerade medarbetare skapar 
+                hållbara företag. Därför strävar Almi efter att vara en 
+                attraktiv arbetsplats som både attraherar och behåller 
+                medarbetare som vill utvecklas. Medarbetarnas 
+                kompetens och engagemang är viktigt för att Almi ska 
+                nå sina mål. Som anställd på Almi arbetar du för att 
+                coacha entreprenörer som är på väg in i företagandet 
+                eller vill ta sitt företag till en nästa nivå. Det kräver 
+                enskilt engagemang och att det finns ett stort förtroende 
+                mellan våra kunder och oss.</p>
         </div>
 
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                Jämställdhet och mångfald
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlush">
-            <div class="accordion-body">Almi är en modern och attraktiv arbetsplats. Detta kräver ett hälsosamt arbetsklimat och ett 
-                bra ledarskap. Etisk och kulturell mångfald och jämn köns- och åldersfördelning är också 
-                faktorer som bidrar till en framgångsrik företagskultur. En inkluderande attityd till allas 
-                skillnader är en förutsättning för ett effektivt, professionellt och lönsamt företag, samt en 
-                viktig del av att kunna rekrytera, utveckla och behålla talanger och färdigheter. 
-                På Almi har alla anställda samma möjligheter, rättigheter och skyldigheter.</div>
-          </div>
-        </div>
 
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                Hållbart företagande
-              </button>
-            </h2>
-            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlush">
-              <div class="accordion-body">Vi på Almi träffar årligen över 20 000 små och medelstora företag. Det innebär en unik 
-                möjlighet att verka för hållbar tillväxt genom att belysa hållbarhetsfrågor i kunddialogen. 
-                På så sätt påverkar Almi hur kundföretagen beaktar och hanterar möjligheter och risker 
-                förknippade med hållbar utveckling. En förutsättning för att skapa ett hållbarhetsvärde i 
-                kundernas affärsmodeller är att vi har kompetenta och engagerade medarbetare samt 
-                gör vårt yttersta för att motverka ekonomisk brottslighet och säkerställa hög kundsekretess 
-                och informationssäkerhet.</div>
+        
+        <!-- Accordion -->
+        <div class="accordion accordion-flush" id="accordionFlush">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Kompetensutveckling
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush">
+                    <div class="accordion-body">Kompetensutveckling är både en operativ och strategisk framgångsfaktor i Almis 
+                        värdeskapande. Almi är en organisation med bred och djup kompetens hos medarbetarna, 
+                        varför aktiv kunskapsdelning och samverkan är det primära sättet att utveckla medarbetare 
+                        och verksamhet. Ett kvitto på att det fungerat är att våra medarbetarundersökningar visar 
+                        på ett högt engagemang.
+                    </div>
+                </div>
             </div>
-          </div>
-      </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Minskad miljöpåverkan
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush">
+                    <div class="accordion-body">Vi arbetar aktivt för att minska vår egen negativa miljöpåverkan från den egna verksamheten. 
+                        Vi uppfattar det som viktigt i syfte att ta vårt ansvar utifrån de klimatutmaningar vi står inför 
+                        samt att det skapar en trovärdighet i arbetet med de företag vi erbjuder finansiering och 
+                        affärsutvecklingsinsatser. Almis verksamhet är miljödiplomerad utifrån svensk miljöbas där 
+                        miljöarbetet koordineras via ett koncerngemensamt miljödiplom. Respektive dotterbolag i 
+                        koncernen är ansvarigt för att leda och följa upp miljöarbetet i den region de verkar. 
+                        Arbetet med att minska vår egen negativa miljöpåverkan tar sin utgångspunkt i Almis 
+                        miljöinstruktion som finns möjligt att ta del av på begäran.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Jämställdhet och mångfald
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlush">
+                    <div class="accordion-body">Almi är en modern och attraktiv arbetsplats. Detta kräver ett hälsosamt arbetsklimat och ett 
+                        bra ledarskap. Etisk och kulturell mångfald och jämn köns- och åldersfördelning är också 
+                        faktorer som bidrar till en framgångsrik företagskultur. En inkluderande attityd till allas 
+                        skillnader är en förutsättning för ett effektivt, professionellt och lönsamt företag, samt en 
+                        viktig del av att kunna rekrytera, utveckla och behålla talanger och färdigheter. 
+                        På Almi har alla anställda samma möjligheter, rättigheter och skyldigheter.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Hållbart företagande
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlush">
+                    <div class="accordion-body">Vi på Almi träffar årligen över 20 000 små och medelstora företag. Det innebär en unik 
+                        möjlighet att verka för hållbar tillväxt genom att belysa hållbarhetsfrågor i kunddialogen. 
+                        På så sätt påverkar Almi hur kundföretagen beaktar och hanterar möjligheter och risker 
+                        förknippade med hållbar utveckling. En förutsättning för att skapa ett hållbarhetsvärde i 
+                        kundernas affärsmodeller är att vi har kompetenta och engagerade medarbetare samt 
+                        gör vårt yttersta för att motverka ekonomisk brottslighet och säkerställa hög kundsekretess 
+                        och informationssäkerhet.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Final contact section -->
+    <section class="closeDeal">
+
+        <div class="imageWithContent">
+            <img src="images/notes.jpg" alt="People taking notes" class="notesImage">
+
+            <div class="closeDealText">
+            <p>
+                Förverkliga dina drömmar genom att redan idag boka ett möte med en av våra kunniga rådgivare, så hjälper vi dig att ta första steget mot din framtid.
+            </p> 
+            </div>
+
+            <div class="contact">
+                <a href="https://www.almi.se/om-almi/kontakt/kontakta-oss/">
+                    <div class="finalContactButton">Kontakta oss</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+
+        <div class="footerMenu">
+            <div class="footerLinks">
+                <p>Våra tjänster</p>
+                <a href="https://www.almi.se/vara-tjanster/tjanster/affarsutveckling/">Affärsutveckling</a>
+                <a href="https://www.almi.se/vara-tjanster/tjanster/lan-och-ovrig-finansiering/">Lån</a>
+                <a href="https://www.almi.se/almi-invest/om-almi-invest/">Riskkapital</a>
+            </div>
+    
+    
+            <div class="footerLinks">
+                <p>Kort om Almi</p>
+                <a href="https://www.almi.se/om-almi/karriar/">Karriär</a>
+                <a href="https://www.almi.se/om-almi/Fakta-om-oss/om-webbplatsen/">Om webbplatsen</a>
+                <a href="https://www.almi.se/om-almi/hallbarhet/hallbarhet-hos-almi/">Hållbarhet</a>
+            </div>
+    
+            <div class="footerLinks">
+                <p>Kontakt</p>
+                <a href="https://www.almi.se/om-almi/kontakt/">Kontakta oss</a>
+                <a href="https://www.almi.se/om-almi/kontakt/vara-radgivare/">Våra rådgivare</a>
+                <a href="https://www.almi.se/almi-invest/team/">Almi Invest</a>
+            </div>
+        </div>
+
+        <div class="socialLinks">
+
+            <div class="socialLinksWrapper">
+                <!-- Youtube -->
+                <a href="https://www.youtube.com/channel/UCtHaL3jUOFf0VJvDRHk7WkQ">
+                    <img src="socials/youtube.png" alt="Youtube" class="socialImage">
+                </a>
+
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/almiskane">
+                    <img src="socials/facebook.png" alt="Facebook" class="socialImage">
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/company/almi-f-retagspartner/?originalSubdomain=se">
+                    <img src="socials/linkedin.png" alt="LinkedIn" class="socialImage">
+                </a>
+                
+                <!-- Twitter -->
+                <a href="https://twitter.com/almiinvest">
+                    <img src="socials/twitter.png" alt="Twitter" class="socialImage">
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/almi_foretagspartner/?hl=sv">
+                    <img src="socials/instagram.png" alt="Instagram" class="socialImage">
+                </a>
+            </div>
+        </div>
+
+
+
+
 
     </section>
+
+
+
 
 
 
